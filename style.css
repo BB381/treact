@@ -3,15 +3,17 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Inter, system-ui;
+   
 }
 
 nav {
     justify-content: space-between;
-    align-items: center;
+    
 }
 
 .row {
     display: flex;
+    align-items: center;
     
 }
 
@@ -75,20 +77,46 @@ nav {
     font-size: 16px;
     text-align: center;
     margin: 20px 0;
+    color: #243e63;
 }
 
 .landing__email {
     position: relative;
     max-width: 448px;
     display: flex;
-    align-items: center;
+    
     position: relative;
 }
 
-@media (max-width: 1024px)
+
+
+.landing__customers {
+    margin-top: 48px;
+}
+
 .landing__customers--title {
     text-align: center;
     font-size: 14px;
+    color: #a0aec0;
+    font-weight: 700;
+    letter-spacing: 0.05em;
 }
 
+.landing__customers--img {
+    opacity: 0.5;
+    margin-top: 12px;
+    padding-right: 80px;
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 
+.landing__image--figure {
+    position: relative;
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 768px;
+}
